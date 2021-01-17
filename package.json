@@ -5,10 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "server": "nodemon app.js",
-    "client": "cd covid19_frontend && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "node app.js"
   },
   "author": "Louis_Darius",
   "license": "ISC",
