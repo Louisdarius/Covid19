@@ -4,6 +4,9 @@ const express    = require('express'),
       Covid19    = require('../models/covid19Model'),
       Router     = express.Router();
 
+      
+      
+      Router.get('/', (req, res) => res.send('WELCOME TO COVID19_SERVER'));
 
       // Find all Covid records
       Router.get('/read', (req, res) => {
